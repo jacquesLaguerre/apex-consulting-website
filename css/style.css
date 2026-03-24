@@ -97,18 +97,21 @@ Developed:      Template_mr
 }
 /*==================== Click Top ====================*/
 .scroll-top {
-  width:30px;
-  height:30px;
-  border-radius: 3px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   position: fixed;
-  bottom: 5px;
-  right:15px;
+  bottom: 20px;
+  right: 20px;
   z-index: 99;
   text-align: center;
+  line-height: 40px;
   color: #fff;
-  background: #151515;
-  font-size: 20px;
+  background: #1a6fd4;
+  font-size: 22px;
   display: none;
+  border: none;
+  cursor: pointer;
 }
 .scroll-top:after {
   position: absolute;
